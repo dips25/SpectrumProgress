@@ -26,13 +26,13 @@ class MainActivity : AppCompatActivity() {
 
         spectrum = findViewById(R.id.spectrum)
 
-        spectrum!!.type = Type.MEDIA //set Type
+        spectrum!!.type = Type.PROGRESS //set Type
 
         var startAnim: Button = findViewById(R.id.start_anim);
 
         startAnim.setOnClickListener {
 
-            spectrum!!.startAnim(Type.MEDIA) //start anim
+            spectrum!!.startAnim(Type.PROGRESS) //start anim
 
         }
     }
